@@ -384,6 +384,17 @@ export default function App() {
 ```
 
 ## React-Router 的用法
+1. npm install react-router-dom
+2. import
+```
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+```
+
 ```
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
